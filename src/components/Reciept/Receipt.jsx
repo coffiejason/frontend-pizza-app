@@ -9,7 +9,7 @@ const Receipt = () => {
           <p className="receipt__title">
             Order Receipt
           </p>
-          <p className="receipt__date">13 December 2020</p>
+          <p className="receipt__date">21 December 2020</p>
         </header>
         <dl className="receipt__list">
           <ReceiptItem />

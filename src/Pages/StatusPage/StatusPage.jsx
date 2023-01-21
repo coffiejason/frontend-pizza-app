@@ -1,5 +1,6 @@
 import React,{useState} from 'react'
 import { Header, Reciept } from '../../components'
+import Processing from '../../components/Processing/Processing';
 
 const StatusPage = () => {
     const [orderNumber, setOrderNumber] = useState();
@@ -25,7 +26,8 @@ const StatusPage = () => {
                 <p>{feedBack}</p>
 
             </div>
-            <Reciept />
+            {/* <Reciept /> */}
+            <Processing />
         </>
     )
 }
