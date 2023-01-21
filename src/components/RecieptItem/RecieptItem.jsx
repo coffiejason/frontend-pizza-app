@@ -13,7 +13,7 @@ const RecieptItem = (props) => {
 
 
             <div className="receipt__list-row">
-                <dt className="receipt__item">CSS Candies</dt>
+                <dt className="receipt__item">Pepperoni Pizza</dt>
                 <dd className="receipt__cost">£9.99</dd>
             </div>
         )
