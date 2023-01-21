@@ -10,11 +10,12 @@ body{
   text-align: center;
   justify-content: center;
   display: flex;
+  font-family: var(--mont);
 }
 
 .header{
 
-  margin: 70px auto;
+  margin: 65px auto;
 
 }
 
@@ -67,3 +68,6 @@ h2 span{
   
 }
 
+.track-order-text:hover{
+  color: brown;
+}

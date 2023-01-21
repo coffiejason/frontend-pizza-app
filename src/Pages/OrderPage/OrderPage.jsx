@@ -29,8 +29,9 @@ const OrderPage = ({ toppings }) => {
                     {'PLACE AN ORDER'}
                 </button>
             </div>
-
-            <label>Track an Order</label>
+            
+            
+            <label className='track-order-text'>Track an Order</label>
 
 
 
