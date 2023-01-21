@@ -1,10 +1,8 @@
 import { useState } from 'react'
-import { Carousel } from 'react-responsive-carousel'
-import reactLogo from './assets/react.svg'
 import './App.css'
-import { Checkbox } from '@chakra-ui/react'
+import { BrowserRouter,Route,Routes } from 'react-router-dom'
 
-import OrderPage from './Pages'
+import  { OrderPage,StatusPage } from './Pages'
 
 let toppings = [
   {
@@ -37,12 +35,13 @@ let toppings = [
 
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <div className="App">
-      <OrderPage toppings={toppings}/>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<OrderPage toppings={toppings}/>}/>
+        <Route path='/status' element={<StatusPage />}/>
+      </Routes>
+    </BrowserRouter>
   )
 }
 

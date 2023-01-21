@@ -71,3 +71,12 @@ h2 span{
 .track-order-text:hover{
   color: brown;
 }
+
+.status-container input{
+  padding: 10px;
+  border: solid 2px rgb(144,144,144);
+  border-radius: 10px;
+  transition: all 0.3s;
+  margin-right: 10px;
+  text-align: center;
+}
