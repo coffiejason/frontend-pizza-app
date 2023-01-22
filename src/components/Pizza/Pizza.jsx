@@ -1,9 +1,12 @@
 import React from 'react'
+import { useState } from 'react'
 
 const Pizza = (props) => {
+  const [checked,setChecked] = useState(false);
+  
   return (
-    <div className='card-container'>
-        <input type={'checkbox'} onClick={()=>{props.onClick({})}}/>
+    <div className='card-container' >
+        <input type={'checkbox'} />
         <div className='img-div'>
             <img src={props.image}/>
         </div>
